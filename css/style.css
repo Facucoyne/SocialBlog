@@ -354,11 +354,6 @@ p{
   
 }
 
-@media screen and (max-width: 500px) {
-  .status__updater2{
-    width: 100%;
-  }
-}
 
 
 
@@ -373,8 +368,8 @@ p{
 }
 
 @media screen and (max-width: 360px) {
-  .Imgtext{
-    width: 100%;
+  .status__updater2 .Imgtext{
+    width: 100px;
   }
 }
 
@@ -387,3 +382,13 @@ p{
     text-align: center;
     padding: 1px;
 }
+
+@media screen and (max-width: 767px){
+  .status__updater2{
+    width: 80%;
+  }
+}
+
+
+
+
