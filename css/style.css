@@ -356,7 +356,7 @@ p{
 
 .Imgtext {
   width: 50%;
-  height: 11vh;
+  height: 15vh;
   border-radius: 1px;
 }
 
@@ -374,6 +374,7 @@ p{
     width: 90%;
     text-align: center;
     padding: 1px;
+    
 }
 
 
