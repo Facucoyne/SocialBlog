@@ -355,33 +355,29 @@ p{
 
 
 .Imgtext {
-  width: 100%;
+  width: 50%;
   height: 11vh;
   border-radius: 1px;
 }
 
-@media screen and (max-width: 360px) {
-  .status__updater2 .Imgtext{
-    width: 100px;
+@media screen and (max-width: 500px) {
+  .status__updater1 .Imgtext{
+    width: 100%;
   }
 }
 
-.status__updater2{
+.status__updater1  {
   margin: auto;
    
-    border-radius: 15px;
     
-    width: 35%;
+    
+    width: 90%;
     text-align: center;
     padding: 1px;
 }
 
-@media screen and (max-width: 767px){
-  .status__updater2{
-    width: 80%;
-  }
+
+.fb-page{
+  width: 900px;
+padding: 10px;
 }
-
-
-
-
