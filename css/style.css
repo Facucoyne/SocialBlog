@@ -210,10 +210,20 @@ h1{
   width: 106px;
 padding: 5px;
   margin: auto;
-  border-radius: 100px;
+ display: flex;
   
 
 }
+
+
+
+
+.Banner img{
+ width: 45%;
+ height: 13vh;
+}
+
+ 
 h4{
   position: fixed;
   padding: 150px;
@@ -348,6 +358,11 @@ p{
 }
 
 
+@media screen and (max-width: 500px) {
+  .Banner img{
+  width: 100%;
+}
+}
 
 
 
@@ -376,5 +391,4 @@ p{
     padding: 1px;
     
 }
-
 
