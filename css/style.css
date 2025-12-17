@@ -399,3 +399,7 @@ p{
 .chat{
   position: fixed;
 }
+
+p{
+  text-align: center;
+}
