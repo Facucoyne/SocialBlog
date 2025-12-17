@@ -31,6 +31,7 @@ border: 1px solid black;
   padding: 0 20px;
   justify-content: space-between;
   z-index: 1000;
+
 }
 
 .navbar > .left {
@@ -202,7 +203,7 @@ h1{
   
 }
 .principaltext , img{
-  width: 100px;
+  width: 75px;
 padding: 5px;
   margin: auto;
  display: flex;
@@ -395,3 +396,6 @@ p{
 }
 
 
+.chat{
+  position: fixed;
+}
