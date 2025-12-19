@@ -13,6 +13,7 @@
 
 body {
   width: 100%;
+  
   background-color: #efefef;
   
 }
@@ -179,7 +180,7 @@ h1{
 }
 .status__updater{
     margin: auto;
-   background-color: #dff5e5;
+   background-color: rgb(217, 238, 229);
     border-radius: 15px;
     border: 1px solid rgb(183, 185, 183);
     width: 45%;
