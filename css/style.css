@@ -10,7 +10,9 @@
 }
 
 .disqued{
-  background-color: #e4e9f7;
+  background-color: rgb(215, 242, 223);
+    border-radius: 15px;
+    border: 1px solid rgb(183, 185, 183);
 }
 
 body {
