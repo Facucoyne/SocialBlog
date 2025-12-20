@@ -14,7 +14,7 @@
 body {
   width: 100%;
   
-  background-color: #efefef;
+  background-color: #eeeeee;
   
 }
 img.image-refresh{
@@ -180,7 +180,7 @@ h1{
 }
 .status__updater{
     margin: auto;
-   background-color: rgb(238, 247, 243);
+   background-color: rgb(215, 242, 223);
     border-radius: 15px;
     border: 1px solid rgb(183, 185, 183);
     width: 45%;
