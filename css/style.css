@@ -16,6 +16,9 @@
     width: 101%;
 
 }
+.disques-footer{
+  display: none;
+}
 
 body {
   width: 100%;
