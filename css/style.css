@@ -411,3 +411,52 @@ p{
   position: fixed;
 }
 
+
+/* Sidebar derecha */
+.sidebar-right {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    position: sticky;
+   
+    
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Links sidebar */
+.sidebar-right .sidebar-section a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: background 0.2s;
+}
+
+.sidebar-right .sidebar-section a:hover {
+    background: #f0f2f5;
+}
+
+.sidebar-right img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+    }
+    .sidebar-right {
+        width: 100%;
+     
+        height: auto;
+        top: 0;
+        margin-top: 20px;
+    }
+}
