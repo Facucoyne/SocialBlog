@@ -603,6 +603,6 @@ a {
 
 @media screen and (max-width: 400px) {
   .l-navbar {
-    width: 50px;
+    width: 45px;
   }
 }
