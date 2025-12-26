@@ -600,3 +600,9 @@ a {
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+@media screen and (max-width: 400px) {
+  .l-navbar {
+    width: 50px;
+  }
+}
