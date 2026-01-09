@@ -189,9 +189,9 @@ h1{
 }
 .status__updater{
     margin: auto;
-   background-color: rgb(215, 242, 223);
+   
     border-radius: 15px;
-    border: 1px solid rgb(183, 185, 183);
+    
     width: 45%;
     text-align: center;
     padding: 1px;
@@ -261,11 +261,20 @@ h2{
 
 p{
   text-align: center;
-  padding: 10px;
+  
   font-family: "Libre Baskerville";
   color: #012905; 
 }
 
+.Parrafo{
+ text-align: center;
+ 
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Libre Baskerville";
+  color: #0e7819; 
+}
 .network{
   color: #f0f2f5;
   
