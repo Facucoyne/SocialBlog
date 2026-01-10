@@ -73,13 +73,34 @@
     </nav>
   <!-- Main Between Section -->
 
+
+
     
-<div>
+<h1  id="bienvenida" style="margin: 10px; " ></h1>
+
+<a href="./index.html" style="margin: 10px;"> cerrar sesión</a>
+<script>
+  // Proteger página
+  if (localStorage.getItem("sesion") !== "true") {
+    window.location.href = "login.html";
+  }
+
+  // Bienvenida
+  document.getElementById("bienvenida").innerText =
+    "Bienvenido, " + localStorage.getItem("usuarioActivo") + " 👋";
+
+  function cerrarSesion() {
+    localStorage.clear();
+    window.location.href = "login.html";
+  }
+</script>
+
+
   
  
   <h1 class="principaltext"><img src="./images/Arbol1.png" alt=""></h1>
-  
-   
+ <p>¿Qué estás pensando?</p>
+
 
   
 
@@ -102,11 +123,21 @@
   
 
 <div class="status__updater">
-<p class="Parrafo">Social Tree </p>
-<p>¿Qué estás pensando?
+
+
+
+
+
+
+
+<script src="https://cdn.fastcomments.com/js/embed-v2.min.js"></script>
+<div id="fastcomments-widget"></div>
+<script>
+FastCommentsUI(document.getElementById('fastcomments-widget'), {
+    "tenantId": "demo"
+});
+</script>
 <!-- Elfsight Comments | Untitled Comments -->
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-539e6cc1-8c8a-4e7c-8544-eaef56602f95" data-elfsight-app-lazy></div>
 
 <div class="disqued" id="disqus_thread"></div>
 
@@ -121,6 +152,7 @@
         </div>
 
         <div id="disqus_thread"></div>
+        
 
     <div class="chat">
  <script type="text/javascript">
@@ -144,9 +176,9 @@
             
 
 
-<!-- Elfsight Comments | Untitled Comments -->
 
     </body>
+
 
         </div>
 

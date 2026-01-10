@@ -189,15 +189,17 @@ h1{
 }
 .status__updater{
     margin: auto;
-   
+   height: 100vh;
     border-radius: 15px;
-    
-    width: 45%;
+    background-color: #ffffff;
+    width: 40%;
     text-align: center;
-    padding: 1px;
-    height: 45px;
+    
+    
   
 }
+
+
 .status__updater h2 {
     text-align: center;
     color: black;
@@ -261,7 +263,7 @@ h2{
 
 p{
   text-align: center;
-  
+  padding: 2px;
   font-family: "Libre Baskerville";
   color: #012905; 
 }
