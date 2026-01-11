@@ -44,6 +44,21 @@
     <p id="mensaje"></p>
 
   </div>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+<div id="g_id_onload"
+     data-client_id="928212821558-ccr44piun88fs43v466r52jq1lamnmn4.apps.googleusercontent.com"
+     data-callback="handleCredentialResponse">
+</div>
+
+<div class="g_id_signin"></div>
+
+<script>
+function handleCredentialResponse(response) {
+  console.log("TOKEN:", response.credential);
+}
+</script>
+
     <p>Versión DEMO</p>
 </div>
 
